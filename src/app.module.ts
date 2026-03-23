@@ -5,9 +5,16 @@ import { CommentsModule } from './comments/comments.module';
 import { ChecklistsModule } from './checklists/checklists.module';
 import { LabelsModule } from './labels/labels.module';
 import { WorkspacesModule } from './workspaces/workspaces.module';
+import { ColumesModule } from './columes/columes.module';
 
 @Module({
-  imports: [CommentsModule, ChecklistsModule, LabelsModule, WorkspacesModule],
+  imports: [
+    CommentsModule,
+    ChecklistsModule,
+    LabelsModule,
+    WorkspacesModule,
+    ColumesModule,
+  ],
 
   controllers: [AppController],
   providers: [AppService],
