@@ -6,6 +6,7 @@ import { ChecklistsModule } from './checklists/checklists.module';
 import { LabelsModule } from './labels/labels.module';
 import { WorkspacesModule } from './workspaces/workspaces.module';
 import { ColumesModule } from './columes/columes.module';
+import { BoardsModule } from './boards/boards.module';
 
 @Module({
   imports: [
@@ -14,6 +15,7 @@ import { ColumesModule } from './columes/columes.module';
     LabelsModule,
     WorkspacesModule,
     ColumesModule,
+    BoardsModule,
   ],
 
   controllers: [AppController],
